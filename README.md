@@ -1,1 +1,1 @@
-# club_project
+# club-project

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Music Player</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <div class="bgv">
+        <video id="bgve" autoplay muted loop src="../assets/video/bgv.mp4"></video>
+    </div>
+
+    <header>
+        <h1>Mood Music Player</h1>
+    </header>
+
+    
+    <!-- search -->
+    <div class="search-main">
+
+        <input id="search" type="search" placeholder="Enter your mood">
+
+        <div class="go-reset">
+
+            <button id="go" onclick="searchMood()">Go</button>
+            <button id="reset" onclick="resetmood()"> reset</button>
+       
+        </div>
+
+    </div>
+
+
+    <main>
+        <!-- Mood Selection -->
+        <section class="mood-selector">
+
+            <h2>Select Your Mood</h2>
+
+            <div class="mood-buttons">
+                
+                <a href="../new.html" class="mood_section happy" id="happy">😊 Happy</a>
+                <a href="../new.html" class="mood_section sad" id="sad">😢 Sad</a>
+                <a href="../new.html" class="mood_section energetic" id="energetic">⚡ Energetic</a>
+                <a href="../new.html" class="mood_section relaxed" id="relaxed">🌙 Relaxed</a>
+                <a href="../new.html" class="mood_section god" id="god"> 🔱 god</a>
+                <a href="../new.html" class="mood_section chill" id="chill">😎 Chill</a>
+                <a href="../new.html" class="mood_section garba" id="garba">🥢 garba</a>
+                <a href="../new.html" class="mood_section focus" id="focus">📚 Focus</a>
+                <a href="../new.html" class="mood_section melancholy" id="melancholy">😔 Melancholy</a>
+                <a href="../new.html" class="mood_section nostalgic"  id="nostalgic">🕰️ Nostalgic</a>
+                <a href="../new.html" class="mood_section motivational" id="motivational">💪 Motivational</a>
+                <a href="../new.html" class="mood_section sleepy" id="sleepy">😴 Sleepy</a>
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+    <script src="search.js"></script>
+</body>
+
+</html>
