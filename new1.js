@@ -246,12 +246,12 @@ let song_nt = {
             img: "assets/img/god/god1.png"
         },
 
-        {
-            name: "assets/audio/god/Nobody_Can_Defeat.mp3",
-            title: "Nobody Can Defeat",
-            singer: "Religious India",
-            img: "assets/img/god/god1.png"
-        },
+        // {
+        //     name: "assets/audio/god/Nobody_Can_Defeat.mp3",
+        //     title: "Nobody Can Defeat",
+        //     singer: "Religious India",
+        //     img: "assets/img/god/god1.png"
+        // },
 
         {
             name: "assets/audio/god/Shiv_Tandav_Stotram.mp3",
