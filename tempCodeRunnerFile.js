@@ -1,4 +1,4 @@
-// const base = "assets/audio/";
+const base = "assets/audio/";
 // const imgBase = "assets/img/";
 
 // let song_nt = {
@@ -76,11 +76,3 @@
 // .replace(".mp3","")
 // .replaceAll("_"," ")
 // }
-let filname="Achu_tam_Keshavam.mp3"
-function getTitle(filename){
-return filename
-.replace(".mp3","")
-.replaceAll("_"," ")
-}
-console.log(getTitle(filname))
-console.log("hello")
